@@ -41,7 +41,6 @@ width: 128.07px
     gap: 62px;
 }
 .box{
-    padding-left: 277px;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 font-family: DM Sans;
@@ -111,7 +110,6 @@ text-align: center;
     display: flex;
     position: relative;
     bottom: -280px;
-    margin-left: 375px;
 }
 .photo{
  display: flex;
@@ -207,11 +205,9 @@ text-align: left;
 }
 .my-button{
     display: flex;
-justify-content: right;
 position: relative;
 top: -300px;
 padding-left: 130px;
-padding-right: 636px;
 }
 .bth-more{
     width: 179.81px;
@@ -583,37 +579,28 @@ letter-spacing: 1%;
 text-align: center;
 }
 .box-html{
-padding-left: 383px;
+
 }
 .box-enter{
-padding-left: 383px;
-padding-top: 30px;
+
 }
 .box-twenty{
    display: flex;
    justify-content: center;
-   position: relative;
-   top: -780px;
+
 }
 .box-13{
     display: flex;
     justify-content: center;
-    position: relative;
-    top: -743px;
+    
 }
 .box-14{
     display: flex;
-    justify-content: right;
-    position: relative;
-    top: -1520px;
-    padding-right: 400px;
+   
 }
 .busy{
     display: flex;
-    justify-content: right;
-    position: relative;
-    top: -1480px;
-    padding-right: 400px; 
+    
 }
 .box-19{
     padding-left: 387px;
@@ -862,4 +849,200 @@ text-align: center;
     position: relative;
     top: -244px;
     padding-right: 153px;
+}
+  @media (max-width: 1440px) {
+    }
+    .first{
+        position: relative;
+       
+    }
+    .box-2{
+        position: relative;
+        left: 350px;
+    }
+    .path{
+       position: relative; 
+       right: 100px;
+    }
+    .scape{
+        position: relative;
+        left: 150px;
+    }
+    .third{
+        position: relative;
+        right: 200px;
+    }
+    .perfect{
+        position: relative;
+        right: 200px;
+    }
+    .my-bth{
+        position: relative;
+        right: 200px;
+    }
+  .box-dark{
+    display: none;
+  }
+  .box-1{
+    display: flex;
+    justify-content: center;
+  }
+  .photo{
+  width: 800px;
+  display: flex;
+    justify-content: flex-start;
+  }
+  .box-fife{
+    position: relative;
+    right: 200px;
+  }
+  .box-six{
+   position: relative;
+   right: 200px;
+  }
+.box-7{
+    position: relative;
+    right: 230px;
+}
+.box-city{
+    position: relative;
+    left: 200px;
+}
+.box-8{
+    position: relative;
+    left: 170px;
+}
+.box-9{
+    position: relative;
+    left: 170px;
+}
+.box-vs{
+  display: flex;
+  justify-content: left;
+  width: 900px;
+}
+.box-ten{
+   display: flex;
+   flex-wrap: wrap;
+}
+.box-dapibus{
+    width: 900px;
+}
+.box-then{
+    width: 900px;
+}
+.box-image{
+    width: 370px;
+    height: 370px;
+    padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.box-02{
+    width: 370px;
+height: 530px;
+padding-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.box-clan{
+    width: 370px;
+    height: 210px;
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.box-girl{
+width: 370px;
+height: 530px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.box-ocean{
+    width: 370px;
+    height: 210px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.box-media{
+    flex-wrap: wrap;
+}
+.box-clas{
+    flex-wrap: wrap;
+
+}
+.box-01{
+    flex-wrap: wrap;
+   
+}
+.box-12{
+margin-left: 300px;
+}
+.box-caramel{
+    padding-top: 300px;
+}
+@media (max-width: 760px) {
+    .box{
+       padding-left: 100px;
+    }
+    .box-light{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .box-dark{
+        display: none;
+    }
+    .box-grey{
+        padding-left: 100px;
+    }
+    .exin{
+        color: rgba(255, 255, 255, 1);
+        font-family: Roboto;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 130px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .box-1{
+        position: relative;
+        top: -2px;
+    }
+    .instagram{
+        display: flex;
+        justify-content: center;
+    }
+    .Fb{
+        display: none;
+    }
+    .path{
+       padding-left: 140px;
+    }
+    .pth{
+        width: 400px;
+        align-items: left;
+    }
+    .scape{
+        width: 400px;
+    }
+    .third{
+        position: relative;
+        right: 5px;
+        padding-left: 50px;
+    }
+    .second{
+        padding-left: 50px;
+    }
+    .my-bth{
+        position: relative;
+        right: 5px;
+        padding-left: 50px;
+    }
+    .perfect{
+        position: relative;
+        right: 40px;
+        width: 300px;
+    }
 }
