@@ -15,7 +15,7 @@ body {
 	overflow-x: hidden;
 }
 .header-section{
-    background-image: url("./rock.png");
+    background-image: url("./img/rock.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -79,7 +79,7 @@ width: 127px;
     justify-content: right;
     gap: 40px;
     position: relative;
-    top: -100px;
+    top: -120px;
     padding-right: 141px;
 }
 .exin{
@@ -134,6 +134,7 @@ text-align: center;
     display: flex;
     position: relative;
     bottom: -280px;
+    padding-right: 200px;
 }
 .photo{
  display: flex;
@@ -349,7 +350,7 @@ text-align: left;
     position: relative;
 }
 .mountin-section{
-    background-image: url("./mountin.png");
+    background-image: url("./img/mountin.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -391,7 +392,7 @@ text-align: center;
     filter: invert(100%);
   }
 .forest-section{
-    background-image: url("./dark.png");
+    background-image: url("./img/dark.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -492,7 +493,7 @@ text-align: center;
     justify-content: center;
   }
   .box-defolt{
-    background-image: url("./Shape.png");
+    background-image: url("./img/Shape.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -513,7 +514,7 @@ text-align: center;
     padding-bottom: 274px;
 }
 .box-top{
-    background-image: url("./hugo-matilla-EFuCATqfblI-unsplash\ 1.png");
+    background-image: url("./img/hugo-matilla-EFuCATqfblI-unsplash\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -714,7 +715,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .mouse-section{
-    background-image: url("./Rectangle\ 1273.png");
+    background-image: url("./img/Rectangle\ 1273.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -890,7 +891,7 @@ text-align: left;
     color: rgba(255, 255, 255, 1);
 }
 .footer-section{
-    background-image: url("./footer.png");
+    background-image: url("./img/footer.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1880,6 +1881,10 @@ height: 952px;
 @media (max-width: 320px){
     .beach{
         width: 200px;
+    }
+    .gal-img{
+position: relative;
+top: git0px;
     }
     .photo{
         width: 300px;
