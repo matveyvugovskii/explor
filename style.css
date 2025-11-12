@@ -25,12 +25,13 @@ body {
     display: none;
 }
 .flower{
+    display: flex;
     margin-left: 30px;
-    padding-top: 28px;
 }
-.indonesia{
- position: relative;
- top: -50px;
+.flow{
+display: flex;
+padding-top: 40px;
+margin-bottom: -50px;
 }
 .box-8,.box-9{
     display: none;
@@ -53,14 +54,33 @@ width: 128.07px
 .box-city{
     display: none;
 }
-.box-light{
-    position: relative;
-    top: -100px;
+.box-light {
+    padding-bottom: 100px;
     display: flex;
-    align-items: center;
+    align-items: flex-start; 
     justify-content: center;
     gap: 62px;
-    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+.copy-same{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-general{
+    display: flex;
+    padding-bottom: 100px;
+}
+.scape{
+ padding-left: 100px;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 70px;
 }
 .box{
     text-decoration: none;
@@ -74,12 +94,14 @@ text-align: left;
 text-transform: uppercase;
 width: 127px;
 }
+.new-general{
+    display: flex;
+    padding-bottom: 100px;
+}
 .box-dark{
     display: flex;
-    justify-content: right;
+display: none;
     gap: 40px;
-    position: relative;
-    top: -120px;
     padding-right: 141px;
 }
 .exin{
@@ -113,12 +135,9 @@ text-align: center;
 }
 .bth-container{
     padding-left: 277px;
-    position: relative;
 }
 .Fb{
-    padding-left: 65px;
-    position: relative;
-    bottom: -450px;
+display: none;
 }
 .rec{
     padding-left: 70px;
@@ -126,15 +145,13 @@ text-align: center;
    top: -400px;
 }
 .reck{
-    padding-left: 74px;
-    position: relative;
-  top: -390px;
+  display: none;
 }
 .box-1{
     display: flex;
+   padding-right: 398px;
     position: relative;
     bottom: -280px;
-    padding-right: 200px;
 }
 .photo{
  display: flex;
@@ -169,7 +186,7 @@ height: 44px;
 .box-eleven{
     display: flex;
     justify-content: right;
-    position: relative;
+ 
     top: -230px;
     padding-right: 260px;
 }
@@ -183,7 +200,7 @@ height: 44px;
     width: 417.22px;
     cursor: pointer;
     display: block;
-    position: relative;
+ 
     z-index: 5;
   }
 .main-section{
@@ -191,13 +208,17 @@ height: 44px;
     margin: 0 auto;
 }
 .path{
-padding-left: 340px;
-padding-top: 207px;
+padding-left: 100px;
+padding-top: 107px;
+}
+.box-kaif{
+    display: flex;
+    flex-direction: column;
 }
 .box-3{
 display: flex;
 justify-content: right;
-position: relative;
+
 top: -300px;
 padding-right: 100px;
 }
@@ -215,7 +236,7 @@ padding-right: 100px;
 .first{
 display: flex;
 justify-content: right;
-position: relative;
+
 top: -300px;
 }
 .walk{
@@ -232,9 +253,6 @@ text-align: left;
 .my-button{
     display: flex;
     justify-content: right;
-position: relative;
-top: -300px;
-padding-left: 130px;
 padding-right: 200px;
 }
 .bth-more{
@@ -245,11 +263,9 @@ background: rgba(221, 34, 66, 1);
 color:  rgba(255, 255, 255, 1);
 }
 .second{
-    padding-left: 383px;
+   
     display: flex;
     color:  rgba(255, 255, 255, 1);
-    position: relative;
-    top: -300px;
 }
 .perfect{
     width: 100%;
@@ -262,30 +278,54 @@ line-height: 50px;
 letter-spacing: 0px;
 text-align: left;
 }
-.gal-img{
-    position: relative;
-    top: -270px;
-}
-.galler{
-    position: relative;
-    top: -120px;
-}
-.gallery-im{
-    position: relative;
-    bottom: 200px;
-}
-.galley{
-    position: relative;
-    top: -140px;
-}
-.gall-img{
-    position: relative;
-    top: -60px;
-}
-.box-ten{
-    padding-top: 200px;
-    padding-left: 200px;
-}
+.box-ten {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+  } 
+  .same-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .gal-img {   
+    width: 370px;
+    height: 530px;
+  }
+  
+  .gallery {
+    width: 370px;
+    height: 530px;
+  }
+  
+  .galler {
+    width: 370px;
+    height: 210px;
+  }
+  
+  .gallery-im {
+    width: 370px;
+    height: 370px;
+  }
+  
+  .galley {
+    width: 370px;
+    height: 210px;
+  }
+  
+  .gall-img {
+    width: 370px;
+    height: 370px;
+  }
+  
 .gallery-title{
 font-family: DM Sans;
 font-size: 60px;
@@ -325,10 +365,7 @@ letter-spacing: 1%;
 text-align: left;
 }
 .third{
-    padding-left: 383px;
-    display: flex;
-    position: relative;
-    top: -300px;
+margin-right: 70px;
 }
 .bth-learn{
     width: 179.81px;
@@ -338,16 +375,13 @@ text-align: left;
     color:  rgba(255, 255, 255, 1);
 }
 .my-bth{
-    display: flex;
-    padding-left: 383px;
-    position: relative;
-    top: -300px;
+margin-right: 70px;
 }
 .fourth{
     padding-right:  183px;
     display: flex;
     justify-content: right;
-    position: relative;
+
 }
 .mountin-section{
     background-image: url("./img/mountin.png");
@@ -547,7 +581,7 @@ justify-content: center;
 .box-fill{
     display: flex;
     justify-content: center;
-    position: relative;
+position: relative;
     top: -320px;
 }
 .box-fife{
@@ -557,7 +591,7 @@ justify-content: center;
     width: 233px;
 }
 .box-six{
-    position: relative;
+
     top: -143px;
 padding-left: 634px;
 }
@@ -573,7 +607,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .box-7{
-    position: relative;
+
     top: -120px;
     padding-left: 635px;
 }
@@ -591,14 +625,14 @@ text-align: left;
 .box-city{
     display: flex;
     justify-content: right;
-    position: relative;
+
     top: -280px;
     padding-right: 651px;
 }
 .box-8{
 display: flex;
 justify-content: right;
-position: relative;
+
 top: -420px;
 padding-right: 365px;
 }
@@ -616,7 +650,6 @@ text-align: left;
 .box-9{
 display: flex;
 justify-content: right;
-position: relative;
 top: -400px;
 padding-right: 290px;
 }
@@ -674,12 +707,6 @@ line-height: 28px;
 letter-spacing: 1%;
 text-align: center;
 }
-.box-html{
-
-}
-.box-enter{
-
-}
 .box-twenty{
    display: flex;
    justify-content: center;
@@ -714,182 +741,97 @@ line-height: 78px;
 letter-spacing: 0%;
 text-align: left;
 }
-.mouse-section{
-    background-image: url("./img/Rectangle\ 1273.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 1432px;
-}
-.line{
-    padding-left: 415px;
-}
-.expory{
-    position: relative;
-    top: -830px;
- padding-left: 386px;
-}
-.export{
-   padding-left: 386px;
-   position: relative;
-   top: -610px;
-}
-.box-0{
-    padding-left: 386px;
-    position: relative;
-    top: -178px;
-}
-.box-code{
-    color: var(--Blue - Background, rgba(1, 10, 32, 1));
-    width: 100%;
-    max-width: 265px;
-    font-family: DM Sans;
-    font-size: 26.41px;
+.mouse-section {
+    background-color: #e6eef7; /* як на макеті */
+    padding: 100px 0;
+    font-family: "DM Sans", sans-serif;
+    color: #010a20;
+  }
+  
+  .section-title {
+    font-size: 42px;
     font-weight: 700;
-    line-height: 41.08px;
-    letter-spacing: 0px;
     text-align: left;
-}
-.box-vs{
-    color: var(--Light Text, rgba(21, 20, 57, 0.4));
-width: 100%;
-max-width: 1038.76px;
-    font-family: DM Sans;
-    font-size: 23.47px;
-    font-weight: 400;
-    line-height: 38.15px;
-    letter-spacing: 0px;
-    text-align: left;
-}
-.box-plus{
-    position: relative;
-    top: -1000px;
-   padding-left: 488px;
-}
-.box-minus{
-    padding-left: 488px;
-    position: relative;
-    top: -980px; 
-}
-.box-choose{
-    color: var(--Blue - Background, rgba(1, 10, 32, 1));
-    width: 100%;
-    max-width: 255px;
-font-family: DM Sans;
-font-size: 26.41px;
-font-weight: 700;
-line-height: 41.08px;
-letter-spacing: 0px;
-text-align: left;
-}
-.box-hotel{
-    padding-left: 488px;
-    position: relative;
-    top: -900px;
-}
-.box-dapibus{
-    color: var(--Light Text, rgba(21, 20, 57, 0.4));
-    width: 100%;
-    max-width: 1038.76px;
-font-family: DM Sans;
-font-size: 23.47px;
-font-weight: 400;
-line-height: 38.15px;
-letter-spacing: 0px;
-text-align: left;
-}
-.box-text{
-    padding-left: 488px;
-    position: relative;
-    top: -872px;
-}
-.photo-box{
-    padding-left: 488px;
-    position: relative;
-    top: -800px;
-}
-.box-icon{
-    padding-left: 480px;
-    margin-left: 100px;
-    position: relative;
-    top: -910px;
-}
-.box-there{
-    padding-left: 784px;
-    position: relative;
-    top: -1030px;
-}
-.box-travel{
-    color: var(--Blue - Background, rgba(1, 10, 32, 1));
-    width: 100%;
-    max-width: 197px;
-font-family: DM Sans;
-font-size: 26.41px;
-font-weight: 700;
-line-height: 41.08px;
-letter-spacing: 0px;
-text-align: left;
-}
-.box-bali{
-    padding-left: 783px;
-    position: relative;
-    top: -1018px;
-}
-.box-bike{
-    color: var(--Light Text, rgba(21, 20, 57, 0.4));
-    width: 100%;
-    max-width: 1000px;
-font-family: DM Sans;
-font-size: 23.47px;
-font-weight: 400;
-line-height: 38.15px;
-letter-spacing: 0px;
-text-align: left;
-}
-.box-expirions{
-padding-left: 488px;
-position: relative;
-top: -970px;
-}
-.box-plan{
-    color: var(--Blue - Background, rgba(1, 10, 32, 1));
-    width: 100%;
-    max-width: 336px;
-font-family: DM Sans;
-font-size: 26.41px;
-font-weight: 700;
-line-height: 41.08px;
-letter-spacing: 0px;
-text-align: left;
-}
-.box-new{
-padding-left: 488px;
-position: relative;
-top: -962px;
-}
-.box-then{
-    color: var(--Light Text, rgba(21, 20, 57, 0.4));
-    width: 100%;
-    max-width: 1038.76px;
-font-family: DM Sans;
-font-size: 23.47px;
-font-weight: 400;
-line-height: 38.15px;
-letter-spacing: 0px;
-text-align: left;
-}
-.top-button{
-    padding-left: 488px;
-    position: relative;
-    top: -940px;
-}
-.last-bth{
-    width: 179.81px;
-    height: 59px;
-    border-radius: 32px;
-    background: rgba(221, 34, 66, 1);
-    color: rgba(255, 255, 255, 1);
-}
+    margin-left: 415px;
+    margin-bottom: 80px;
+  }
+  
+  .timeline {
+    border-left: 2px solid rgba(21, 20, 57, 0.2);
+    width: 60%;
+    margin-left: 415px;
+    padding-left: 40px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+  }
+  
+  .timeline-number {
+    background-color: #dd2242;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateX(-58px);
+  }
+  
+  .timeline-content {
+    max-width: 750px;
+  }
+  
+  .timeline-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .timeline-content p {
+    font-size: 18px;
+    color: rgba(21, 20, 57, 0.6);
+    line-height: 1.6;
+  }
+  
+  /* Фото та текст поруч */
+  .image-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  
+  .image-content img {
+    width: 240px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* Кнопка */
+  .learn-btn {
+    background-color: #dd2242;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .learn-btn:hover {
+    background-color: #b91c38;
+  }
+  
 .footer-section{
     background-image: url("./img/footer.png");
     background-repeat: no-repeat;
@@ -964,36 +906,28 @@ text-align: center;
     }
     .box-3{
         padding-right: 0px;
-       position: relative;
     bottom: 70px;
     }
     .walk{
-        padding-left: 70px;
+        padding-left: 40px;
     }
     .box-2{
-        position: relative;
+   
         left: 0;
     }
     .path{
-       position: relative; 
+  
        right: 0;
     }
     .scape{
-        position: relative;
+
         left: 0;
     }
     .third{
-        padding-left: 0px;
-        position: relative;
-        left: 300px;
+       padding-left: 30px;
     }
     .second{
-        padding-left: 0px;
-    position: relative;
-    left: 300px;
-    }
-    .perfect{
-       
+   padding-left: 30px;
     }
     .fourth{
         padding-right: 0px;
@@ -1018,27 +952,21 @@ padding-right: 120px;
     padding-right: 20px;
   }
   .box-fife{
-    position: relative;
     right: 0;
   }
   .box-six{
-   position: relative;
    right: 0;
   }
 .box-7{
-    position: relative;
     right: 0;
 }
 .box-city{
-    position: relative;
     left: 0;
 }
 .box-8{
-    position: relative;
     left: 0;
 }
 .box-9{
-    position: relative;
     left: 0;
 }
 .box-vs{
@@ -1134,11 +1062,11 @@ margin-left: 0;
     padding-right: 100px;
 }
 .box-six{
-    position: relative;
+   
   top: 5px;
 }
 .box-7{
-        position: relative;
+      
 }
 .first{
 display: flex;
@@ -1151,6 +1079,9 @@ display: none;
 @media (max-width: 760px) {
     .box{
        padding-left: 0;
+    }
+    .rec{
+        top: -300px;
     }
     .box-light{
         display: flex;
@@ -1178,7 +1109,7 @@ display: none;
         padding: 0 10px;
     }
     .box-1{
-        position: relative;
+       padding-right: 0px;
         top: -2px;
     }
     .instagram{
@@ -1201,20 +1132,17 @@ display: none;
     .scape{
         width: 100%;
         max-width: 400px;
+        align-items: left;
+        margin: 0 auto;
+        padding-left: 0px;
     }
     .third{
-        position: relative;
-        right: 0;
-        padding-left: 10px;
-    }
-    .second{
+        margin-right: 0;
         padding-left: 10px;
     }
     .my-bth{
-        position: relative;
         right: 0;
         padding-left: 10px;
-        
     }
     .perfect{
        width: 370px;
@@ -1234,15 +1162,10 @@ display: none;
         box-sizing: border-box;
     }
     .box-8, .box-9{
-        position: relative;
         top: -280px;
     }
     .box-six{
-        position: relative;
       top: 5px;
-    }
-    .box-7{
-            position: relative;
     }
 .first{
     display: flex;
@@ -1259,7 +1182,10 @@ display: none;
 .my-button{
     display: flex;
     justify-content: center;
-    margin-left: 140px;
+    margin-right: 140px;
+}
+.box-2{
+    padding-top: 70px;
 }
 .amet{
     width: 360px;
@@ -1284,28 +1210,10 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-.box-ten {
-    background-color: #ffffff;
-    background-image: url("./white.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 100px 20px;
-    box-sizing: border-box;
-    overflow: visible;
-  }
 .gallery-header {
     text-align: center;
     margin-bottom: 60px;
   }
-  
   .gallery-title {
     font-family: "DM Sans", sans-serif;
     font-size: 60px;
@@ -1358,7 +1266,6 @@ display: none;
   }
     .box-box{
         width: 200px;
-        position: relative;
         top: -50px;
     }
     .box-icon{
@@ -1367,41 +1274,34 @@ display: none;
     .social{
         display: flex;
             justify-content: right;
-            position: relative;
             top: -140px;
             padding-right: 453px;
     }
     .landscape{
         display: flex;
             justify-content: right;
-            position: relative;
             top: -164px;
             padding-right: 407px;
     }
     .google{
         display: flex;
             justify-content: right;
-            position: relative;
             top: -187px;
             padding-right: 361px;
     }
     .copy{
         display: flex;
             justify-content: right;
-            position: relative;
             top: -214px;
             padding-right: 153px;
     }
     .box-dolor{
-        position: relative;
-        top: 120px;
+    top: 120px;
     }
-    .second{
-        position: relative;
+    .second{ 
         left: 0px;
     }
     .third{
-        position: relative;
         left: 0px;  
     }
     .walk{
@@ -1413,30 +1313,92 @@ display: none;
     .box-light{
         padding-left: 0px;
     }
-    .gallery-im{
-display: none;
-    }
-    .galley{
-        position: relative;
-        top: -0px;
-    }
-    .gal-img
- {
-    position: relative;
-    top: -290px;
+    .mouse-section {
+        padding: 80px 40px;
+      }
+    
+      .section-title {
+        font-size: 34px;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+    
+      .timeline {
+        width: 90%;
+        margin: 0 auto;       /* ✅ Центруємо весь таймлайн */
+        padding-left: 30px;
+        border-left: 2px solid rgba(21, 20, 57, 0.2);
+      }
+    
+      .timeline-content {
+        max-width: 100%;
+      }
+    
+      .timeline-content h3 {
+        font-size: 22px;
+      }
+    
+      .timeline-content p {
+        font-size: 16px;
+      }
+    
+      .image-content {
+        gap: 15px;
+      }
+    
+      .image-content img {
+        width: 200px;
+        height: 120px;
+      }
+  .gallery-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+
+  .gallery-title {
+    font-size: 26px;
+  }
+
+  .gallery-subtitle {
+    font-size: 14px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .same-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .gallery-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+  }
+  .gallery,
+  .galley,
+  .gall-img,
+  .galler,
+  .gal-img,
+  .gallery-im {
+    width: 320px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+  
 }
-.galler
- {
-    position: relative;
-    top: -130px;
-}
-.gallery-header {
-    position: relative;
-    top: 80px;
-    left: 70px;
-    padding-left: 0px;
-}
-}
+
 @media (max-width: 375px) {
     .header-section{
         width: 375px;
@@ -1446,6 +1408,7 @@ display: none;
 }
 .box-dark{
 display: flex;
+display: none;
 justify-content: right;
 padding-right: 30px;
 gap: 5px;
@@ -1481,12 +1444,6 @@ border-radius: 107.63px;
     position: relative;
     top: -120px;
 }
-.three{
-    
-}
-.box-7{
-   
-}
 .road{
     transform: translateY(-100px);
 }
@@ -1494,7 +1451,6 @@ border-radius: 107.63px;
 padding-top: 140px;
 }
 .box-9{
-    position: relative;
     transform: translateY(100px);
 }
 .box-ipsum{
@@ -1513,7 +1469,7 @@ justify-content: center;
     width: 225.23px;
 }
 .box-8{
-position: relative;
+
 transform: translateY(100px);
 }
 .park{
@@ -1530,13 +1486,12 @@ transform: translateY(100px);
 height: 659px;
 }
 .first,.box-3{
-    position: relative;
+   
     top: -1px;
 }
  .walk{
     color: rgba(255, 255, 255, 1);
 font-family: DM Sans;
-font-size: 40px;
 font-weight: 700;
 line-height: 46px;
 letter-spacing: 0%;
@@ -1557,42 +1512,49 @@ text-align: left;
     display: none;
 }
  .my-button{
-    position: relative;
-    top: -1px;
-    padding-left: 0px;
-    margin-left: 0px;
+    margin-right: 60px;
  }
  .bth-more{
     border-radius: 32px;
 background: rgba(221, 34, 66, 1);
-width: 314px;
+width: 270px;
 height: 72px;
  }
+ .new-general{
+    display: block;
+ }
  .content-general{
+    display: block;
     padding-top: 70px;
     padding-bottom: 87px;
  }
- .second,.third,.my-bth{
+ .my-bth{
     display: flex;
     justify-content: center;
-    position: relative;
     top: -1px;
+    margin-right: 20px;
+ }
+ .second,.third{
+    margin-left: 60px;
  }
  .perfect{
+    margin-right: 40px;
+    width: 320px;
+        font-size: 32px;
 font-family: DM Sans;
-font-size: 40px;
 font-weight: 700;
 line-height: 46px;
 letter-spacing: 0%;
 text-align: left;
  }
  .amet{
-font-family: DM Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
+    width: 320px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left
  }
  .fourth,.path{
     display: flex;
@@ -1603,119 +1565,58 @@ text-align: left;
     width: 314px;
  align-items: center;
  }
- .box-19{
-    padding-left: 0px;
- }
- .line{
-    padding-left: 0px;
- }
- .expory{
-    padding-left: 0px;
- }
- .export{
-    padding-left: 0px;
- }
- .box-0{
-    padding-left: 0px;
-   
- }
- .box-plan{
-  position: relative;
-  top: -130px;
-  font-size: 20px;
-display: flex;
-justify-content: right;
- }
- .box-then{
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
+ .mouse-section {
+    padding: 60px 20px;
+  }
+  .section-title {
+    font-size: 28px;
+    margin-left: 0;
     text-align: center;
-    position: relative;
-    top: -130px;
- }
- .last-bth{
-    position: relative;
-    top: -130px;
- }
- .top-button{
-    display: flex;
-    justify-content: center;
- }
- .box-plus{
-    padding-left: 0px;
- }
- .box-minus{
-    padding-left: 0px;
- }
- .box-hotel{
-    padding-left: 0px;
- }
- .box-text{
-    padding-left: 0px;
- }
- .photo-box{
-    padding-left: 0px;
- }
- .box-icon{
-    padding-left: 0px;
- }
- .box-there{
-    padding-left: 0px;
- }
- .box-bike{
-    padding-left: 0px;
- }
- .box-expirions{
-    padding-left: 0px;
- }
- .box-new{
-    padding-left: 0px;
- }
- .top-button{
-    padding-left: 0px;
- }
- .box-box{
-    position: relative;
-    top: -0px;
- }
- .photo-box{
-    display: flex;
-    justify-content: center;
- }
- .box-code,.box-choose{
-font-size: 20px;
-display: flex;
-justify-content: right;
- }
- .box-vs,.box-dapibus{
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-align: center;
- }
- .box-travel{
+    margin-bottom: 40px;
+  }
+  .timeline {
+    width: 100%;
+    margin-left: 0;
+    border-left: none;
+    padding-left: 0;
+  }
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    padding-left: 0;
+  }
+ .timeline-number {
+    position: static;
+    margin-bottom: 10px;
+  }
+  .timeline-content {
+    max-width: 100%;
+  }
+  .timeline-content h3 {
     font-size: 20px;
-display: flex;
-justify-content: right;
-position: relative;
-top: 40px;
-margin-left: 60px;
- }
- .box-same{
-    color: white;
-     width: 56px;
- font-family: DM Sans;
- font-size: 18px;
- font-weight: 700;
- line-height: 28px;
- letter-spacing: 0.5px;
- text-align: center;
- }
+  }
+  .timeline-content p {
+    font-size: 15px;
+  }
+  .image-content {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .image-content img {
+    width: 100%;
+    height: auto;
+  }
+  .image-content h3 {
+    font-size: 18px;
+  }
+  .learn-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 15px;
+  }
  .footer-section {
     background-color: #081b33; 
     padding: 40px 0;
@@ -1730,7 +1631,9 @@ margin-left: 60px;
     text-align: center;
     color: white;
   }
-  
+  .box-1{
+    padding-top: 100px;
+  }
   .box-third {
     width: 160px;
     margin-bottom: 70px;
@@ -1789,26 +1692,24 @@ padding-right: 0px;
 margin-top: 10px;
   }
   .box-dolor{
-  position: relative;
+ 
   top: 0px;
 }
 .gallery-grid{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-direction: column;
 }
 .gallery{
     width: 151px;
     height: 217px;
 }
 .galley{
-    position: relative;
+   
     top: -1px;
     width: 151px;
 height: 86px;
 }
 .gall-img{
-    position: relative;
+  
     top: -1px;
     width: 150px;
 height: 153px;
@@ -1818,7 +1719,7 @@ display: flex;
 flex-wrap: wrap;
 }
 .galler{
-    position: relative;
+  
     top: -1px;
     width: 151px;
 height: 86px;
@@ -1826,7 +1727,7 @@ height: 86px;
 .gal-img{
     display: flex;
     justify-content: center;
-    position: relative;
+   
     top: -292px;
     left: 10px;
     width: 151px;
@@ -1836,7 +1737,7 @@ height: 86px;
     display: flex;
     width: 150px;
 height: 153px;
-position: relative;
+
 bottom: 294px;
 left: 160px;
 margin-top: 10px;
@@ -1844,7 +1745,7 @@ margin-top: 10px;
 .gallery-header{
     padding-left: 0px;
     margin-bottom: 1px;
-    position: relative;
+
     top: 0px;
     left: 0px;
 }
@@ -1859,7 +1760,6 @@ font-weight: 700;
 line-height: 46px;
 letter-spacing: 0%;
 text-align: center;
-position: relative;
 top: 40px;
 }
 .gallery-subtitle{
@@ -1874,20 +1774,21 @@ line-height: 24px;
 letter-spacing: 0.5px;
 text-align: center;
 }
-.box-ten{
-height: 952px;
+.same-box{
+    display: flex;
+    justify-content: left;
 }
+.box-1{
+    padding-right: 0px;
+}
+.box-ten{}
 }
 @media (max-width: 320px){
     .beach{
-        width: 200px;
-    }
-    .gal-img{
-position: relative;
-top: git0px;
+        width: 390px;
     }
     .photo{
-        width: 300px;
+        width: 340px;
     }
     .box-1{
         padding-right: 40px;
@@ -1897,11 +1798,19 @@ top: git0px;
     }
     .gallery-grid{
         display: flex;
-        align-items: center;
         flex-direction: column;
     }
     .gallery-img{
         width: 250px;
         height: 119px;
     }
+    .dolor,.amet
+     {
+            width: 278px;
+            font-size: 18px;
+            margin-right: 70px;
+        }
+        .perfect{
+            margin-right: 60px;
+        }
 }
